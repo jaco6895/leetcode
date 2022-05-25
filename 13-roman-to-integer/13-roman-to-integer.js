@@ -12,7 +12,7 @@ var romanToInt = function(s) {
         let next = checkSymbol[charArr[idx+1]];
         
         if(now >= next || next == undefined){
-           result += now ;
+           result += now;
           }else{
            result -= now; 
         }
